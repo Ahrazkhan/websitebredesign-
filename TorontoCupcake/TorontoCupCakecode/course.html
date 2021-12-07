@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-------- to make the website responsive   -->
+<title>Torontocupcake</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo_pro.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our main Courses</h1>
+    </section>
+    
+    
+<!----------  main course ----------->
+    
+<section class="course">
+    <h1>Varites We Offer</h1>
+    <p>we have rich and finest varites of produts</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Cupcake</h3>
+            <p>1000 diffirent types of cupcake avilable at shop or by delivery </p>
+        </div>
+        <div class="course-col">
+            <h3>Cakes</h3>
+            <p>we can made what u can imagine , any costumize cake of your designe </p>
+        </div>
+        <div class="course-col">
+            <h3>Cookiens </h3>
+            <p>Cookiens that taste like rich and with heathy incregtient </p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="campus">
+    <h1>Our Torontocupcake</h1>
+    <p>best in town.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/ChocolatePeanutbutter2.jpg">
+                <div class="layer">
+                    <h3>Chocolate cupcakes with sweet PB frosting topped with a hand made PB cup wedge</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/ChocolateVanilla.jpg">
+                <div class="layer">
+                    <h3>Vanilla cupcake with vanilla frosting topped with flaked coconut</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/Vanilla_Coconut.jpg">
+                <div class="layer">
+                    <h3>Vanilla cupcake with vanilla frosting topped with flaked coconut</h3>
+                </div>
+            </div>
+            
+        </div>
+</section>
+<!---------- Services ---------->
+    
+<section class="facility">
+    <h1>Our Services</h1>
+    <p>We provide services at every ceromeny </p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/wedding (2).jpg">
+                <h3>Birthday parties</h3>
+                <p>Make your kid happy with the dream and costomise cake of there choice</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/wedding1.jpg">
+                <h3>Wedding Cakes</h3>
+                <p>We try to make your wedding special with a sweetness of a cake</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/healthy.jpg">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Fresh and 100 % natural and heatly products used everday</p>
+            </div>
+        </div>
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Toronto Cupcake was created by Michelle Harrison so she could pursue her love of baking. A lifelong baker, inspired by her mother, Michelle opened Toronto Cupcake in August 2010 as one of Canada's first gourmet cupcakeries.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Ahraz khan</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
